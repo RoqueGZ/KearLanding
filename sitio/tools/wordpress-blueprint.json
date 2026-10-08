@@ -1,0 +1,16 @@
+{
+  "steps": [
+    {
+      "step": "activateTheme",
+      "themeFolderName": "kear-landings"
+    },
+    {
+      "step": "setSiteOptions",
+      "options": {
+        "blog_public": "0",
+        "WPLANG": "es_AR",
+        "blogname": "KEAR Instalaciones"
+      }
+    }
+  ]
+}

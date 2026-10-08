@@ -1,0 +1,4 @@
+sitio/.local/
+sitio/preview/index.html
+__pycache__/
+sitio/*.zip

@@ -1,0 +1,8 @@
+{
+  "name": "kear-local-development-tools",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Local WordPress runtime and optional accessibility checks; not shipped with the theme.",
+  "engines": {"node": ">=24.18.0", "npm": ">=11.16.0"},
+  "dependencies": {"@wp-playground/cli": "3.1.57", "axe-core": "4.10.3"}
+}

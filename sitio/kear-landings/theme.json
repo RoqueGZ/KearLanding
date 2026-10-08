@@ -1,0 +1,69 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/theme.json",
+  "version": 3,
+  "settings": {
+    "appearanceTools": true,
+    "layout": {
+      "contentSize": "1280px",
+      "wideSize": "1440px"
+    },
+    "color": {
+      "palette": [
+        {
+          "slug": "white",
+          "name": "Blanco",
+          "color": "#FFFFFF"
+        },
+        {
+          "slug": "charcoal",
+          "name": "Carbón",
+          "color": "#1D1E20"
+        },
+        {
+          "slug": "light",
+          "name": "Gris claro",
+          "color": "#F3F4F5"
+        },
+        {
+          "slug": "text",
+          "name": "Gris texto",
+          "color": "#4B5563"
+        },
+        {
+          "slug": "cta",
+          "name": "CTA funcional",
+          "color": "#176B45"
+        }
+      ]
+    },
+    "typography": {
+      "fontFamilies": [
+        {
+          "fontFamily": "Inter, Arial, sans-serif",
+          "slug": "inter",
+          "name": "Inter"
+        }
+      ]
+    }
+  },
+  "styles": {
+    "typography": {
+      "fontFamily": "var:preset|font-family|inter"
+    },
+    "spacing": {
+      "blockGap": "0"
+    }
+  },
+  "templateParts": [
+    {
+      "name": "header",
+      "title": "Cabecera",
+      "area": "header"
+    },
+    {
+      "name": "footer",
+      "title": "Contacto y privacidad",
+      "area": "footer"
+    }
+  ]
+}
